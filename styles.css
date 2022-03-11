@@ -1,0 +1,311 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-family: 'League Gothic', sans-serif;
+}
+
+h2{
+  font-family: 'League Gothic', sans-serif;
+}
+
+.top-section{
+  position: sticky;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  background-color: pink;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 14vh;
+}
+
+.top-section__ad{
+  display: flex;
+  background-color: #fff500;
+  height: 36%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-section__ad__a{
+  color: #000;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+.top-section__menu{
+  box-sizing: border-box;
+  background-color: black;
+  padding: 1em 7em;
+  height: 64%;
+  width: 100%;
+}
+
+.top-section__menu__content{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.top-section__menu__content__ul{
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+}
+
+.top-section__menu__content__ul li{
+  margin-right:0.8em;
+  color: white;
+}
+
+.top-secton__menu__content__img{
+  height: 100%;
+  margin-left: 36em;
+}
+
+
+.top-section__menu__content__a{
+  font-family: 'League Gothic', sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  font-weight: 900;
+}
+
+.video{
+  width: 100%;
+  height: 84vh;
+  background-color: green;
+}
+
+.video__background{
+  width: 100%;
+  height: 100%;
+}
+
+.video__play-btn{
+  display: block;
+  position: absolute;
+  top: 44%;
+  right: 45%;
+  width: 9em;
+  height: 9em;
+}
+
+.subscribe-box{
+  height: 22vh;
+  width: 100%;
+  background-color: #101010;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe-box h2{
+  display: inline;
+  font-family: 'League Gothic', sans-serif;
+  font-size: 3em;
+  letter-spacing: 0.08em;
+  font-weight: 900;
+  margin: 0;
+}
+
+.subscribe-box p{
+  font-size: 1.8em;
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+
+.subscribe-box button{
+  border: none;
+  background-color: #ec3f34;
+  color: white;
+  font-size: 1.3em;
+  padding: 0.4em 0.7em;
+}
+
+.bio{
+  box-sizing: border-box;
+  width: 100%;
+  height: 77vh;
+  padding: 4em 10em;
+  display: flex;
+}
+
+.bio__text{
+  margin-right: 1.8em;
+  width: 50%;
+  height: 100%;
+}
+
+
+
+.bio__text h2{
+  font-size: 3.2em;
+  margin: 0;
+  margin-bottom: 0.3em;
+  line-height: 1.05em;
+  letter-spacing: 0.02em;
+}
+
+.bio__text hr{
+  border: 1px solid black;
+}
+
+.bio__text p{
+  font-size: 1.3em;
+  line-height: 1.3em;
+}
+
+.bio__text a{
+  position: relative;
+  top: 2em;
+  left: 22em;
+  font-weight: 600;
+  font-size: 1.1em;
+  color: #08a5cb;
+}
+
+.bio__video{
+  width: 50%;
+  height: 100%;
+}
+
+.bio__video h3{
+  text-align: end;
+  font-family: 'League Gothic', sans-serif;
+  font-size: 1.85em;
+  margin: 0;
+  margin-top: 3.8%;
+  margin-bottom: 2%;
+}
+
+.bio__video img{
+  height: auto;
+  width: 100%;
+}
+
+.companies{
+  background-color: #f4f4f4;
+  width: 100%;
+  height: 35vh;
+}
+
+.companies h4{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  position: relative;
+  top: 2em;
+  left: 43%;
+}
+
+.companies__upper{
+  position: relative;
+  top: 20%;
+  left: 15%;
+}
+
+.companies__upper img{
+  margin: 0 1em;
+}
+
+.companies__bottom{
+  position: relative;
+  top: 34%;
+  left: 24%;
+}
+
+.companies__bottom img{
+  margin: 0 1em;
+}
+
+.companies a{
+  font-weight: 600;
+  font-size: 1.1em;
+  color: #08a5cb;
+  position: relative;
+  left: 74%;
+  top: 40%;
+}
+
+.news{
+  width: 100%;
+  height: 120vh;
+  padding: 3em 10em;
+  display: flex;
+}
+
+.news__left{
+  height: 100%;
+  width: 52%;
+}
+
+.news__left img{
+  width: 100%;
+  height: auto;
+}
+
+.news__left h4{
+  margin: 0;
+  margin-bottom: 0.2em;
+  font-family: 'League Gothic', sans-serif;
+  font-size: 1.8em;
+}
+
+.news__right{
+  padding-left: 1.4em;
+  height: 100%;
+  width: 25%;
+}
+
+.news__right h3{
+  font-family: 'League Gothic', sans-serif;
+  font-size: 3.2em;
+  line-height: 0.8em;
+  margin-bottom: 0.5em;
+  margin-top: 0.7em;
+}
+
+.news__right hr{
+  border: 1px solid black;
+}
+
+.news__right h5{
+  font-family: 'Roboto', sans-serif;
+  margin-top: 2em;
+  margin-bottom: 0.8em;
+  font-size: 1.1em;
+}
+
+.news__right p{
+  font-family: 'Georgia', serif;
+  font-size: 1.15em;
+  line-height: 1.6em;
+}
+
+.news__right a{
+  font-weight: 600;
+  font-size: 1.1em;
+  color: #08a5cb;
+  position: relative;
+  left: 13em;
+}
+
